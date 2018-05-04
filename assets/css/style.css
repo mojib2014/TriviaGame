@@ -1,0 +1,39 @@
+
+/* body of html */
+body {
+    background: url("http://sfwallpaper.com/images/awesome-computer-backgrounds-13.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    position: center;
+    background-size: 1500px; 
+    height: 100%;
+}
+.jumbotron {
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: center;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4c8WA_2vcE_K_O2CpAhNa9slvOM3I6ztZUkLVk8R9hKbIDBP7");
+    width: 960px;
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    border: 4px solid blue;
+    
+}
+.display-4 {
+    color: rgb(105, 241, 21);
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.display-4:hover {
+    background: black;
+}
+#timer {
+    color: white;
+}
+#question {
+    color: white;
+}
+#form {
+    color: white;
+}
