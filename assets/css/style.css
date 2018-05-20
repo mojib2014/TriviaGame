@@ -1,39 +1,67 @@
-
-/* body of html */
+html,
 body {
-    background: url("http://sfwallpaper.com/images/awesome-computer-backgrounds-13.jpg");
-    width: 100%;
-    background-repeat: no-repeat;
-    position: center;
-    background-size: 1500px; 
-    height: 100%;
+  height: 100%;
 }
-.jumbotron {
-    margin-top: 50px;
-    margin-left: 80px;
-    text-align: center;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4c8WA_2vcE_K_O2CpAhNa9slvOM3I6ztZUkLVk8R9hKbIDBP7");
-    width: 960px;
-    background-repeat: no-repeat;
-    background-size: 1800px;
-    border: 4px solid blue;
-    
+
+body {
+  text-align: center;
+  background-image: url("../images/tacky.jpg");
 }
-.display-4 {
-    color: rgb(105, 241, 21);
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 20px;
+
+#wrapper {
+  width: 960px;
+  min-height: 80%;
+  box-sizing: border-box;
+  padding: 5% 0;
+  margin: 5% auto;
+  background-color: #fff17a;
 }
-.display-4:hover {
-    background: black;
+
+#sub-wrapper {
+  position: relative;
+  top: 20%;
 }
-#timer {
-    color: white;
+
+button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  margin: 10px auto 0;
+  font-size: 42px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
 }
-#question {
-    color: white;
+
+h1 {
+  margin-bottom: 50px;
+  font-family: Geo, sans-serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  color: blue;
 }
-#form {
-    color: white;
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+#start {
+  margin-top: 10%;
+  background: pink;
+  border: 2px solid blue;
+}
+
+#quiz-area h2 {
+  margin-top: 50px;
+}
+
+button:hover {
+  background: pink;
+  border: 2px solid blue;
 }
