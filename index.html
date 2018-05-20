@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Link to our own css -->
   <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- Quiz container -->
     <div id = "quiz-cotainer" class = "container">
         <div class="jumbotron">
             <h1 class="display-4">Totally Trivial Trivia!</h1>
             <p class="lead">
             </p>
+
+            <!-- start button -->
             <button id = "startButton" autofocus>Start Quiz</button>
             <h1><span id = "timer"></span></h1>
+
+            <!-- all the questions will be dumped here -->
             <h3 id="question"></h3>
           <br/><br/>
           <form id="form">
         
+            <!-- next and result button -->
           </form>
           <br/>
           <a href="#" id="next" class="button" autofocus>Next</a><br/>
@@ -28,27 +36,8 @@
 
         </div>
     </div>
-    
-      
 
-
-        <!-- <div class="well jumbotron">
-          <h3 id="question"></h3>
-          <br/><br/>
-          <form id="form">
-        
-          </form>
-          <br/>
-          <a href="#" id="next" class="button">Next</a><br/>
-          <div id="progressbar" class="progress-bar progress-bar-striped"></div>
-        </div>
-        <div id="result"></div>
-
-
-
-
-    </div> -->
-
+     <!-- link to our jquery and javascript -->
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
